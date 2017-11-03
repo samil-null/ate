@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	text-decoration: none;
+	list-style:none;
+	box-sizing: border-box
+}
+body{
+	background: url('../img/bg.jpg')
+}
+.text-center{
+	text-align: center;
+}
+.title-text{
+
+	color:#fff;
+}
+.menu{
+	display: flex;
+	padding:15px 0;
+	justify-content: space-between;
+	background: url('../img/navigation-bg.png') center repeat-x;
+
+	&__item{
+		list-style-type:disc;
+		color:#fff;
+		padding: 0 5px;
+		font-size: 20px;
+
+		
+	}
+	&__link{
+		text-transform: uppercase;
+		color:#fff;
+		transition:.3s;
+		&:hover{
+			border-bottom:1px solid #fff;
+		}
+	}
+}
